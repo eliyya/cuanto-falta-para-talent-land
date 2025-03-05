@@ -13,8 +13,6 @@ const geistMono = Geist_Mono({
     subsets: ['latin'],
 })
 
-export const metadata: Metadata = {}
-
 export async function generateMetadata(): Promise<Metadata> {
     return {
         title: getTimeLeft().days + ' dias para talent land',
