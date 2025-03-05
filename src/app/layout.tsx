@@ -13,9 +13,13 @@ const geistMono = Geist_Mono({
     subsets: ['latin'],
 })
 
-export const metadata: Metadata = {
-    title: getTimeLeft().days + ' dias para talent land',
-    description: 'Cuanto Falta para Talent Land?',
+export const metadata: Metadata = {}
+
+export async function generateMetadata(): Promise<Metadata> {
+    return {
+        title: getTimeLeft().days + ' dias para talent land',
+        description: 'Cuanto Falta para Talent Land?',
+    }
 }
 
 export default function RootLayout({
