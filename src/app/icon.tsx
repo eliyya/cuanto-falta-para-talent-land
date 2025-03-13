@@ -7,7 +7,7 @@ export const size = {
     height: 64,
 }
 export const contentType = 'image/png'
-
+export const dynamic = 'force-dynamic'
 // Image generation
 export default function Icon() {
     return new ImageResponse(

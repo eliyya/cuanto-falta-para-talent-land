@@ -1,6 +1,7 @@
 import { getTimeLeft } from '../utils'
 import { ImageResponse } from 'next/og'
 
+export const dynamic = 'force-dynamic'
 const size = {
     width: 64,
     height: 64,

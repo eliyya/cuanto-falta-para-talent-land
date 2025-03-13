@@ -4,6 +4,7 @@ import { HandlerTime } from './HandlerTime'
 import { HTMLAttributes } from 'react'
 import { cn } from './utils'
 
+export const dynamic = 'force-dynamic'
 export default function CountdownLanding() {
     return (
         <div className='from-background to-muted flex min-h-screen flex-col items-center justify-center bg-gradient-to-b p-4'>
