@@ -22,7 +22,7 @@ export default function CountdownLanding() {
                 </div>
 
                 <h2 className='text-2xl font-bold tracking-tight sm:text-3xl md:text-4xl lg:text-5xl'>
-                    PARA TALEN TLAND
+                    PARA TALENT LAND
                 </h2>
             </main>
         </div>
